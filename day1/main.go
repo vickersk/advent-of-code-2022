@@ -123,6 +123,7 @@ func main() {
 	}
 	fmt.Printf("The most calories carried is: %d\n", maxCalories)
 
+	// Total number of calories being caried by the top three Elves
 	maxCalories, err = part2()
 	if err != nil {
 		fmt.Printf("The following error occurred in part2:\n%q", err)
